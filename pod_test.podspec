@@ -26,7 +26,7 @@ Pod::Spec.new do |s|
 
   s.source_files = 'pod_test/Classes/**/*'
 
-  - 推荐这种 -#
+#- 推荐这种 -#
    s.resource_bundles = {
      'pod_test' => ['pod_test/Assets/**/*']
    }
@@ -43,7 +43,7 @@ Pod::Spec.new do |s|
   # s.libraries = 'iconv', 'xml2'
 
  s.xcconfig = { 'HEADER_SEARCH_PATHS' => '$(SDKROOT)/usr/include/libxml2' }
-  s.dependency 'RxCocoa'
-  s.dependency 'RxSwift'
+s.dependency 'RxCocoa'
+s.dependency 'RxSwift'
 
 end
