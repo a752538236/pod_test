@@ -1,12 +1,12 @@
 platform :ios, '8.0'
 use_frameworks!
 
-source 'git@git.silvrr.com:iOS/Specs.git'
+source 'https://github.com/a752538236/Spec.git'
 source 'https://github.com/CocoaPods/Specs.git'
 
 target 'pod_test_Example' do
 
-  pod 'pod_test', :path => '../'
+  pod 'pod_test'
 
   # pod 'Base', :path => '../'
   # pod 'Network', '~> 0.1.0'
