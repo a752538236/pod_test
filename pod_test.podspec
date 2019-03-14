@@ -1,7 +1,7 @@
 Pod::Spec.new do |s|
 
   s.name         = 'pod_test'
-  s.version      = '1.0.6'
+  s.version      = '1.0.8'
   s.summary      = 'pod_test.'
 
   s.description  = <<-DESC
@@ -27,9 +27,9 @@ Pod::Spec.new do |s|
   s.source_files = 'pod_test/Classes/**/*'
 
 #- 推荐这种 -#
-   s.resource_bundles = {
-     'pod_test' => ['pod_test/Assets/**/*']
-   }
+#s.resource_bundles = {
+#'pod_test' => ['pod_test/Assets/**/*']
+# }
 
   # s.resources  = 'pod_test/**/*.{storyboard,xib}', 'pod_test/Assets/*'
   # s.resources = 'Resources/*.png'

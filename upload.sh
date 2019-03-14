@@ -66,4 +66,4 @@ git add .
 git commit -am ${CommitMsg}
 git tag ${NewVersionNumber}
 git push origin master --tags
-pod repo update Specs && pod repo push Specs pod_test.podspec --verbose --allow-warnings --sources='git@git.silvrr.com:iOS/Specs.git,https://github.com/CocoaPods/Specs'
+pod repo update Specs && pod repo push Specs pod_test.podspec --verbose --allow-warnings
