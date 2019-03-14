@@ -7,7 +7,6 @@ source 'https://github.com/CocoaPods/Specs.git'
 target 'pod_test_Example' do
 
   pod 'pod_test'
-
   # pod 'Base', :path => '../'
   # pod 'Network', '~> 0.1.0'
 
