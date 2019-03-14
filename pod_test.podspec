@@ -1,7 +1,7 @@
 Pod::Spec.new do |s|
 
   s.name         = 'pod_test'
-  s.version      = '1.0.8'
+  s.version      = '1.0.9'
   s.summary      = 'pod_test.'
 
   s.description  = <<-DESC
@@ -43,7 +43,7 @@ Pod::Spec.new do |s|
   # s.libraries = 'iconv', 'xml2'
 
  s.xcconfig = { 'HEADER_SEARCH_PATHS' => '$(SDKROOT)/usr/include/libxml2' }
-s.dependency 'RxCocoa'
-s.dependency 'RxSwift'
+ s.dependency 'RxCocoa'
+ s.dependency 'RxSwift'
 
 end
